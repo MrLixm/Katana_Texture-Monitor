@@ -2,7 +2,7 @@
 
 This tool aim to quickly have a global look at all the texture existing in a Katana project. It also introduce some convenient feature such as render-engine texture baking, search and replace, ... 
 
-![visual](_images\main_visu.png)
+![visual](/_images/main_visu.png)
 
 
 The tool was made to support any render-engine but right now only `Redshift`, `3Delight` and `Arnold` 
