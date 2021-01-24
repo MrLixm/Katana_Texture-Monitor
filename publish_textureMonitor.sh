@@ -1,0 +1,1 @@
+cp -r "L:\SCRIPT\Katana\Project_script\Py_scripts\texture_tool_public\02_DEVELOPMENT\02_project_script\texture_monitor_public\src\." "L:\SCRIPT\Katana\Project_script\Liam_setup_v01\Resources\Tabs"

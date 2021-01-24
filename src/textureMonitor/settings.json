@@ -1,0 +1,9 @@
+{
+  "default_render_engine": "Delight",
+  "enable_retex": true,
+  "default_ui_width": 1200,
+  "locked_paths": [
+    "R:\\Imapath\\toafile_exemple.exr",
+    "R:\\Imapath\\toafile_exemple02.exr"
+  ]
+}
