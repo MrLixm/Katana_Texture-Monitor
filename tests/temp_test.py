@@ -9,7 +9,7 @@ PATH_PATTERN = {'<UDIM>': "[1][0-2][0-9][0-9]",
                 '<UVTILE>': "?*_*[0-9]"}
 
 
-main_path = r"J:\STIM_STUDIO\Projects\2009_witches\01_ROOT\ASSETS\SET\placeGround\PROJECT\sourceimages\placeGround_textures\01-WorkinfFiles\export_mari_v01_4k\placeGround_Diffuse_Color_<UDIM>.exr"
+main_path = r"deleted"
 
 tag2match = '<UDIM>'
 match_path = main_path.replace(tag2match, PATH_PATTERN.get(tag2match))
