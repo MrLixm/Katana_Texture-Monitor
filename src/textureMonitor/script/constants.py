@@ -17,7 +17,7 @@ from . import render_engine
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-VERSION = "0.0.5"
+VERSION = "1.0.0"
 APPNAME = "Texture Monitor"
 
 KATANA_MAIN_WIND = MainWindow.GetMainWindow()  # UI4.App.MainWindow.KatanaWindow

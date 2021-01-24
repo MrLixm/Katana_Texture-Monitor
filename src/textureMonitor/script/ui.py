@@ -20,7 +20,7 @@ from .constants import (TREEW_DATA, DataRole, LOCKED_LIST, RESOURCES_LOCATION, E
 
 from . import constants
 
-logger = logging.getLogger("texturMonitor.script.ui")
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 """ --------------------------------------------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ class Colors:
 _font_JetBrain_Regular_path = os.path.join(RESOURCES_LOCATION, "fonts", "JetBrainsMonoNL-Medium.ttf")
 _id = QtGui.QFontDatabase.addApplicationFont(_font_JetBrain_Regular_path)
 FONT_JetBrainNL_Medium = QtGui.QFontDatabase.applicationFontFamilies(_id)[0]
-logger.debug("FONT ID: {}".format(FONT_JetBrainNL_Medium))
+logger.debug("[TextureMonitor Loading] FONT ID: {}".format(FONT_JetBrainNL_Medium))
 
 
 class Icons:
@@ -429,6 +429,7 @@ class TextureMonitorUI(UI4.Tabs.BaseTab):
             except Exception as excp:
                 error_dict[retex] = excp
 
+        logger.info("retex removed: {}, with errors: {}".format(retex2delete, error_dict))
         num_total = len(retex2delete)
         num_error = len(error_dict)
         num_processed = num_total - num_error
